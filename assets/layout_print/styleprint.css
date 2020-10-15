@@ -1,0 +1,14 @@
+ header{background-image: url(header.JPG);}
+  body{margin : 30px;}
+  h1{margin:0;padding:0;font-size:1em;font-weight:bold; color: #26216A; font-family: Arial;}
+  p{font-size:1em;margin:0;}
+  table{margin:2em 0 0 0; border:0px solid #eee;width:100%; border-collapse: separate;border-spacing:4; }
+  table th{font-family: Arial; color: #26216A; background:#ffffff; border:none; padding:0px ; font-weight:bold;text-align:left;}
+  table td{font-family: Arial; color: #ffffff; background:#26216A; border:none; padding:10px  1px; font-weight:normal;text-align:left; border-top:1px solid #eee;}
+  table tr.total td{font-size:1.5em; }
+  .btnsubmit{display:inline-block;padding:10px;border:1px solid #ddd;background:#eee;color:#000;text-decoration:none;margin:2em 0;}
+  form{margin:2em 0 0 0;}
+  label{display:inline-block;width:auto;}
+  input[type=text]{border:1px solid #bbb;padding:10px;width:30em;}
+  textarea{border:1px solid #bbb;padding:10px;width:30em;height:5em;vertical-align:text-top;margin:0.3em 0 0 0;}
+  .submitbtn{font-size:1.5em;display:inline-block;padding:10px;border:1px solid #ddd;background:#eee;color:#ffffff;text-decoration:none;margin:0.5em 0 0 8em;};

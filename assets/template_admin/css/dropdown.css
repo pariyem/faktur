@@ -1,0 +1,67 @@
+body
+{
+    background-image: url('background.png');
+}
+.menu
+{
+    margin: 80px auto 0px 120px;
+    text-align: left;
+}
+
+/* First Level */
+.menu ul
+{
+    border: 1px solid rgba(255,255,255,0.5);
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.4);
+    display: inline-table;
+    padding: 20px 0;
+    list-style: none;
+}
+.menu ul li
+{    
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.2s Ease;
+    -moz-transition: all 0.2s Ease;
+    -o-transition: all 0.2s Ease;
+    position: relative;    
+}
+.menu ul li:hover
+{
+    
+    box-shadow: inset 0px 0px 10px 0px rgba(100,100,100,0.2), 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+/* Hyperlink Style */
+.menu a
+{
+    font-family: Arial, Tahoma, Sans-Serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(0,0,0,0.5);
+    text-decoration: none;
+    text-shadow: rgba(255,255,255,0.3) 1px 1px 0px;
+    display: block;
+    padding: 20px 20px;
+    width: 180px;
+}
+
+/* Drop down Levels */
+.menu ul ul
+{
+    display: none;
+    border-radius: 0px;
+    padding: 0px;
+}
+.menu ul li:hover > ul
+{
+    display: inline-table;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+.menu ul ul li a
+{
+    padding: 8px 20px;
+}
